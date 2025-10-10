@@ -1,3 +1,4 @@
-Klasa bazowa: Product
-Klasa dziedzicząca: Book , Electronics , Clothing
-Interfejs: Discountable
+Klasa bazowa: Product <br>
+Klasa dziedziczaca: Book, Electronics, Clothing, Shopingcart <br>
+Interfejs: Discountable <br>
+Main: Main
