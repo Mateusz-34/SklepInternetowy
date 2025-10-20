@@ -13,6 +13,6 @@ public class Book extends Product implements Discountable {
 
     @Override
     public String getInfo() {
-        return String.format("Book [ID:%s,nazwa: %s, autor: %s, cena: %.2f]", id, name, author, price);
+        return String.format("Book [ID:%s,name: %s,author: %s,price: %.2f]", id, name, author, price);
     }
 }
