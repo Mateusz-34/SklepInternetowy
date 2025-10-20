@@ -13,6 +13,6 @@ public class Electronics extends Product implements Discountable {
 
     @Override
     public String getInfo() {
-        return String.format("Electronics [ID:%s, %s, brand: %s, price: %.2f]", id, name, brand, price);
+        return String.format("Electronics [ID:%s,name: %s,brand: %s,price: %.2f]", id, name, brand, price);
     }
 }
